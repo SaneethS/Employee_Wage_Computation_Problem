@@ -15,5 +15,9 @@ public class Employee {
 	final int full_day_hour = 8;
 	
 	int daily_wage = wage_per_hour * full_day_hour;
+	
+	final int part_time_hour = 8;
+	
+	int part_time_wage = wage_per_hour * part_time_hour;
 
 }

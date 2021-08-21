@@ -15,6 +15,9 @@ public class EmployeeWageMain {
 		//UC2
 		System.out.println("The Daily Wage of Employee : "+emp.daily_wage);
 		
+		//UC3
+		System.out.println("The Part time wage of Employee : "+emp.part_time_wage);
+		
 
 	}
 
