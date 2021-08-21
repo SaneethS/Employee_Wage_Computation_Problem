@@ -18,6 +18,9 @@ public class EmployeeWageMain {
 		//UC3
 		System.out.println("The Part time wage of Employee : "+emp.part_time_wage);
 		
+		//UC5
+		System.out.println("Wage of the employee per month : "+emp.wage_per_month);
+		
 
 	}
 
