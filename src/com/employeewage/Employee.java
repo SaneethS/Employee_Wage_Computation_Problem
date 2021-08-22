@@ -29,6 +29,8 @@ public class Employee {
 	
 	int wage_per_month = daily_wage * work_day_per_month;
 	
+
+	
 	public double calculateWage() {
 		double wage=0;
 		switch(employee_type) {
@@ -40,6 +42,10 @@ public class Employee {
 		}
 		return wage;
 		
+	}
+	
+	public double calculateWageHour(int hours) {
+		return wage_per_hour*hours;
 	}
 
 }
