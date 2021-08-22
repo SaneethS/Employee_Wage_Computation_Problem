@@ -6,7 +6,7 @@ public class EmployeeWageMain {
 		System.out.println("Welcome to Employee Wage computation problem");
 		
 		//UC1
-		Employee emp = new Employee();
+		Employee emp = new Employee(1);//1:full-time employee 2:part-time employee
 		if(emp.isPresent())
 			System.out.println("Employee is present");
 		else
@@ -20,6 +20,9 @@ public class EmployeeWageMain {
 		
 		//UC5
 		System.out.println("Wage of the employee per month : "+emp.wage_per_month);
+		
+		//UC4
+		System.out.println("Wage using Switch Statement : "+emp.calculateWage());
 		
 
 	}
