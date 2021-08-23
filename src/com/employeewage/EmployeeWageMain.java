@@ -7,13 +7,16 @@ public class EmployeeWageMain {
 		
 		//UC1
 		Employee emp = new Employee();
-		if(emp.isPresent())
+		if(emp.isPresent()) {
 			System.out.println("Employee is present");
-		else
+			emp.empHrs=8;
+		}
+		else {
 			System.out.println("Employee is absent");
-		
+			emp.empHrs=0;
+		}
 		//UC2
-		System.out.println("The Daily Wage of Employee : "+emp.daily_wage);
+		System.out.println("The Daily Wage of Employee : "+emp.dailyWage);
 		
 
 	}
