@@ -10,6 +10,9 @@ public class EmployeeWageMain {
 		if(emp.isPresent()) {
 			System.out.println("Employee is present");
 			emp.empHrs=8;
+		}else if(emp.isPartTime()) {
+			System.out.println("Employee is present but part time");
+			emp.empHrs=4;
 		}
 		else {
 			System.out.println("Employee is absent");
