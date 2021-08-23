@@ -8,7 +8,7 @@ public class Employee {
 	
 	int empHrs=0;
 	int empType;
-	double empCheck=(int)Math.floor(Math.random()*10)%3;
+	int empCheck=(int)Math.floor(Math.random()*10)%3;
 	
 
 
@@ -33,5 +33,7 @@ public class Employee {
 			return false;
 		
 	}
+	
+	
 
 }
